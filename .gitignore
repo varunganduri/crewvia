@@ -1,0 +1,53 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Environment variables (MUST)
+.env
+.env.local
+.env.development
+.env.production
+
+# Build & Dist
+dist/
+build/
+.out/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Database & Uploads (very important!)
+uploads/
+temp/
+tmp/
+
+# MongoDB local (if you ever use it)
+mongodump/
+dump/
+
+# Testing & Coverage
+coverage/
+.nyc_output/
+
+# PM2 (if you use it for production)
+pm2.log
+ecosystem.config.js
+
+# Optional: don’t commit large export files
+*.csv
+*.xlsx
+exports/
