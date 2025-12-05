@@ -35,10 +35,12 @@ app.use(
       : [
           "http://localhost:3000",
           "http://localhost:5173",
-          "https://radiant-macaron-4182b1.netlify.app"
+              "https://radiant-macaron-4182b1.netlify.app"
+
         ],
     credentials: true,
   })
+  
 );
 
 
